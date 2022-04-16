@@ -4,7 +4,7 @@ import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ShoopingCart {
+public class ShoppingCart {
 
     public void checkout(String status){
         // Logging request
@@ -13,5 +13,9 @@ public class ShoopingCart {
 
         // Business logic
         System.out.println("Checkout method");
+    }
+
+    public int quantity() {
+        return 2;
     }
 }
