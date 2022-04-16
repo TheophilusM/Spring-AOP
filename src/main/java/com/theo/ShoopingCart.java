@@ -1,9 +1,11 @@
 package com.theo;
 
+import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
 
 @Component
 public class ShoopingCart {
+
     public void checkout(){
         // Logging request
         // authentication and authorization
