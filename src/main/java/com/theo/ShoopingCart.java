@@ -8,7 +8,7 @@ public class ShoopingCart {
         // Logging request
         // authentication and authorization
         // Sanitize the data
-        
+
         // Business logic
         System.out.println("Checkout method");
     }
