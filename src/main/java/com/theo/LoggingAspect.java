@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggingAspect {
 
-    // defining run point cut matching any passed inputs
+    // defining run point cut matching any passed inputs for a specific package
     @Before("execution(* com.theo.ShoopingCart.checkout(..))")
     public void beforeLogger() {
         System.out.println("Logger before aspect");
